@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #303131;
+}
+
+header.hero {
+    background-color: #303131;
+    color: #faf7dd;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header.hero .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+header.hero .slogan {
+    font-size: 2em;
+    font-family: 'Deansgate', sans-serif;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section.about,
+section.cta {
+    background-color: #faf7dd;
+}
+
+section.how-it-works .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.how-it-works .step {
+    border: 1px solid #d29d87;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section.features li {
+    background-color: #d29d87;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+section.testimonials .testimonial {
+    background-color: #faf7dd;
+    border: 1px solid #d29d87;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+section.cta button {
+    background-color: #d29d87;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+section.cta button:hover {
+    background-color: #b5846f;
+}
