@@ -77,3 +77,24 @@ section.cta button {
 section.cta button:hover {
     background-color: #b5846f;
 }
+
+footer.footer {
+    background-color: #303131;
+    color: #faf7dd;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer.footer .footer-content a {
+    color: #faf7dd;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer.footer .footer-content a:hover {
+    text-decoration: underline;
+}
