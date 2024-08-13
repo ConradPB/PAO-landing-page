@@ -9,10 +9,24 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-.wrapper {
-    flex: 1;
+header.top-header {
+    background-color: #faf7dd;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+header.top-header .github-links a {
+    color: #303131;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header.top-header .github-links a:hover {
+    text-decoration: underline;
 }
 
 header.hero {
@@ -20,6 +34,7 @@ header.hero {
     color: #faf7dd;
     text-align: center;
     padding: 50px 20px;
+    flex: 0 0 auto;
 }
 
 header.hero .logo {
@@ -35,6 +50,7 @@ header.hero .slogan {
 section {
     padding: 40px 20px;
     text-align: center;
+    flex: 1 0 auto;
 }
 
 section.about,
@@ -87,22 +103,4 @@ section.cta button {
 
 section.cta button:hover {
     background-color: #b5846f;
-}
-
-footer.footer {
-    background-color: #303131;
-    color: #faf7dd;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer.footer .footer-content a {
-    color: #faf7dd;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer.footer .footer-content a:hover {
-    text-decoration: underline;
 }
